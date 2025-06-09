@@ -1,1 +1,1 @@
-# rsschool-cv
+https://coolorvi.github.io/rsschool-cv/cv
