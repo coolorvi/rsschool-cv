@@ -1,0 +1,16 @@
+.cv {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: rgb(157, 119, 192);
+}
+
+p, a, h1, h2 {
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
