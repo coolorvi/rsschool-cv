@@ -1,0 +1,140 @@
+body {
+    background-color: 	#e6e6fa;
+}
+
+.cv {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: rgb(157, 119, 192);
+    box-shadow: 0 0 30px rgba(75, 0, 130, 0.7);
+    border-radius: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p, a, li, h1, h2 {
+    color: white;
+}
+
+.header {
+    background-color: #4b0082;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+}
+
+ul {
+    list-style: square;
+}
+
+p, li, a {
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-bottom: 20px;
+}
+
+img {
+    margin-left: 20%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.img-and-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.about-me {
+    width: 400px;
+    padding-top: 50px;
+    padding-left: 35%;
+    text-align: center;
+}
+
+.hr-line {
+	margin: 40px auto;
+	padding: 0;
+	height: 0;
+    width: 50%;
+	border: none;
+	border-top: 3px solid #eeff00;
+}
+
+.skills {
+    padding-left: 45%;
+}
+
+.code-example h2 {
+    text-align: center;
+}
+
+pre {
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+    padding: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 35%;
+}
+
+.projects {
+    padding-left: 40%;
+}
+
+.courses {
+    padding-left: 40%;
+}
+
+.languages {
+    padding-left: 45%;
+    padding-bottom: 5%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #4b0082;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer p {
+    font-size: 1.2em;
+    margin: 5%;
+    margin-left: 40%;
+    margin-right: 20%;
+}
+
+.github_logo {
+    width: 150px;
+    height: auto;
+}
+
+.rss_logo {
+    width: 300px;
+    height: auto;
+}
