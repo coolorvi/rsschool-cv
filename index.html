@@ -3,8 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Cv</title>
 </head>
 <body>
+    <div class="cv">
+        <header>
+            <nav class="header">
+                <ul class="header-list">
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code-example">Code example</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="img-and-info">
+                <img src="images\resized_avatar_256.png" alt="Avatar">
+                <div class="info">
+                    <h1>Elizaveta Belyaeva</h1>
+                    <div class="contacts-list" id="contacts">
+                        <h2>Contacts:</h2>
+                        <ul>
+                            <li>Discord: coolorvi_49390</li>
+                            <li>GitHub: coolorvi</li>
+                            <li>E-mail: coulorvi3@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>    
+
+            <hr class="hr-line">
+
+            <div class="about-me" id="about-me">
+                <h2>About me:</h2>
+                <p>I don't have any work experience. I'm still in school. I studied backend for one years. And now I decided to try to explore frontend. Maybe it will be useful to me in the future.</p>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="skills" id="skills">
+                <h2>Skills:</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>Go</li>
+                    <li>C#(low)</li>
+                    <li>Git</li>
+                    <li>JavaScript(low)</li>
+                    <li>HTML&CSS</li>
+                </ul>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="code-example" id="code-example">
+                <h2>Code example(from CodeWars):</h2>
+                <pre><code>def unique_in_order(sequence): 
+    arr = []
+    for i in range(len(sequence)):
+        if i == 0 or sequence[i] != sequence[i-1]:
+            arr.append(sequence[i])
+    return arr</code></pre>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="projects" id="projects">
+                <h2>Projects:</h2>
+                <ul>
+                    <li><a href="https://github.com/coolorvi/parallel_web_calc">Parallel web calculator on Go</a></li>
+                    <li><a href="https://github.com/TheCSharpAcademy/CodeReviews.Console.MathGame/pull/525">Math Game on C#</a></li>
+                </ul>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="courses" id="courses">
+                <h2>Courses:</h2>
+                <ul>
+                    <li>"Generation Python" (Stepik)</li>
+                    <li>"Programming in Go" (Yandex Liceum)</li>
+                    <li>JS / Front-end Pre-school (RSS) - in progress</li>
+                </ul>
+            </div>
+
+            <hr class="hr-line">
+
+            <div class="languages" id="languages">
+                <h2>Languages:</h2>
+                <ul>
+                    <li>Russian (native)</li>
+                    <li>English (B1)</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <a href="https://github.com/coolorvi" target="_blank"><img class="github_logo" src="images\icons8-github.svg" alt="GitHub_logo"></a>
+            
+            <p>2025</p>
+
+            <a href="https://rs.school/courses/javascript-ru" target="_blank"><img class="rss_logo" src="images\rs-school-logo.svg" alt="RSS_logo"></a>
+        </footer>
+    </div>
 </body>
 </html>
