@@ -62,6 +62,7 @@ img {
 .img-and-info {
     display: flex;
     flex-direction: row;
+    margin-top: 5%;
 }
 
 .about-me {
@@ -110,4 +111,30 @@ pre {
 
 .languages {
     padding-left: 45%;
+    padding-bottom: 5%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #4b0082;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer p {
+    font-size: 1.2em;
+    margin: 5%;
+    margin-left: 40%;
+    margin-right: 20%;
+}
+
+.github_logo {
+    width: 150px;
+    height: auto;
+}
+
+.rss_logo {
+    width: 300px;
+    height: auto;
 }
